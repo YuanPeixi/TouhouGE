@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{3404a6ae-cfef-40af-8f16-78b010609e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\MFC">
+      <UniqueIdentifier>{7b18a762-d89c-40a7-8c3b-93f1f610c7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{8a7425f6-072f-4266-b89b-64d0111f34a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Document">
+      <UniqueIdentifier>{5016d2e7-86c8-49c0-8f7c-7926d8878d94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="Document\ARCHITECTURE.md">
+      <Filter>Document</Filter>
+    </None>
+    <None Include="Document\INTERFACES.md">
+      <Filter>Document</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Platform\MFC\MfcAdapters.cpp">
+      <Filter>Platform\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\MFC\MfcApp.cpp">
+      <Filter>Platform\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Platform\MFC\MfcAdapters.h">
+      <Filter>Platform\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Interfaces.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
